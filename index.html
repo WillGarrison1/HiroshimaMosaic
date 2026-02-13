@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
+</head>
+<body style="margin:0;">
+  <div id="viewer" style="width:100vw; height:100vh;"></div>
+
+  <script>
+    OpenSeadragon({
+      id: "viewer",
+      prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+      tileSources: "hiroshima_tiles.dzi"
+    });
+  </script>
+</body>
+</html>
